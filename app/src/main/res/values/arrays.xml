@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="art_images">
+        <item>@drawable/lightbox2</item>
+        <item>@drawable/lightbox5</item>
+        <item>@drawable/lightbox6</item>
+        <item>@drawable/molding_mixedmedia_1</item>
+        <item>@drawable/molding_mixedmedia_2</item>
+        <item>@drawable/modular_2_lineolium_screenprint</item>
+        <item>@drawable/modular_3_lineolium_screenprint</item>
+        <item>@drawable/modular_4_lineolium_screenprint</item>
+        <item>@drawable/papermache_welding1</item>
+        <item>@drawable/papermache_welding2</item>
+        <item>@drawable/papermache_welding3</item>
+        <item>@drawable/papermache_welding4</item>
+        <item>@drawable/papermache_welding5</item>
+        <item>@drawable/papermache_welding6</item>
+        <item>@drawable/screenprint</item>
+        <item>@drawable/screenprint2</item>
+        <item>@drawable/circa_1967_progress</item>
+        <item>@drawable/circa_1967_progress1</item>
+        <item>@drawable/circa_1967_progress2</item>
+        <item>@drawable/circa_1967_progress2</item>
+        <item>@drawable/circa_1967_progress3</item>
+        <item>@drawable/circa_1967_progress4</item>
+        <item>@drawable/acrylic_color</item>
+        <item>@drawable/circa_1967_complete1</item>
+        <item>@drawable/circa_1967_complete2</item>
+        <item>@drawable/circa_1967_complete3</item>
+    </integer-array>
+
+
+</resources>

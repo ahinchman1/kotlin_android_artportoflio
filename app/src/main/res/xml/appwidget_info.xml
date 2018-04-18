@@ -4,7 +4,7 @@
     android:minHeight="40dp"
     android:updatePeriodMillis="86400000"
     android:previewImage="@drawable/circa_1967_complete1"
-    android:initialLayout="@layout/recyclerview_item_row"
+    android:initialLayout="@layout/art_piece_entry"
     android:configure="com.example.amandahinchman.artportfolio.MainActivity"
     android:resizeMode="horizontal|vertical"
     android:widgetCategory="home_screen">
