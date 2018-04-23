@@ -9,12 +9,12 @@
         android:id="@+id/gvArtPieces"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:columnWidth="150dp"
-        android:horizontalSpacing="15dp"
-        android:verticalSpacing="15dp"
+        android:columnWidth="100dp"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="20dp"
         android:numColumns="auto_fit"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"/>
+        android:stretchMode="columnWidth"
+        android:background="@color/colorAccent"
+        android:gravity="center"/>
 
 </LinearLayout>
