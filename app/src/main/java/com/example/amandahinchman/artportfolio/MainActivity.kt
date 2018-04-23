@@ -21,9 +21,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.art_piece_entry)
         gridView = findViewById(R.id.gvArtPieces)
 
-        val artCollection: List<Drawable> = loadDrawables(this.resources).map {
-            resize(it)
-        }
+        val artCollection: List<Drawable> = loadDrawables(this.resources)
+        //val artCollection: List<Int> = this.resources.obtainTypedArray(R.array.art_images)
 
         adapter = ArrayAdapter (
                 this,
@@ -31,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                 artCollection
         )
 
-        gridView?.adapter = adapter
+        gridView?.adapter = adapter //ImageGridAdapter(this, artCollection)
 
     }
 
